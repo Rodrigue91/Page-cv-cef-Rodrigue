@@ -6,7 +6,6 @@
     src: url('../fonts/Raleway-Regular.ttf') format('trurtype');
 }
     
-
 *{
     box-sizing: border-box;
     margin: 0;
@@ -46,6 +45,7 @@ body{
     margin-left: 50px;
     margin-top: 20px;
 }
+
 .cv-picture img{
     width: 150px;
     height: 150px;
@@ -227,19 +227,26 @@ h5{
 }
 
 .cv-footer{
-    display: flex;
     background-color: #17abb3;
     color: #ffffff;
-    padding: 20px;
+    padding: 10px;
+    text-align: center;
+}
+
+.icons-footer{
+    display: flex;
     justify-content: center;
     gap: 20px;
 }
 
-.cv-footer img{
+.icons-footer img{
     width: 20px;
 }
 
-.cv-footer img:hover{
+.icons-footer img:hover{
     opacity: 0.5;
 }
 
+.cv-footer span{
+    font-size: small;
+}
